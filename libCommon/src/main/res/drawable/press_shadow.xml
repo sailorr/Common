@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@dimen/spacing_tinyest"
+    android:insetTop="@dimen/spacing_tinyest"
+    android:insetRight="@dimen/spacing_tinyest"
+    android:insetBottom="@dimen/spacing_tinyest">
+
+    <shape android:shape="rectangle">
+        <corners android:radius="2dp" />
+        <solid android:color="@color/gray2" />
+        <padding
+            android:bottom="@dimen/spacing_tinyest"
+            android:left="@dimen/spacing_tinyest"
+            android:right="@dimen/spacing_tinyest"
+            android:top="@dimen/spacing_tinyest" />
+    </shape>
+</inset>
